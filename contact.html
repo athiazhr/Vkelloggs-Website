@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Us</title>
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        h1,
+        h2 {
+            color: #2e8b57;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            margin-bottom: 30px;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form label,
+        .contact-form input,
+        .contact-form textarea,
+        .contact-form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .contact-form button {
+            background-color: #2e8b57;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #1e602d;
+        }
+
+        .error {
+            color: red;
+            font-size: 14px;
+            display: none;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Vkelloggs!</a>
+
+        <nav class="navbar">
+            <a href="product.html">PRODUCT</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="recipe.html">RECIPE</a>
+            <a href="contact.html">CONTACT US</a>
+        </nav>
+    </header>
+    <header>
+        <h1>Contact Us - Kellogg's</h1>
+    </header>
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email: Vkelloggs@gmail.com</p>
+            <p>Phone: +62 8178329424</p>
+            <p>Address: Binus University, Street Kemanggisan</p>
+        </div>
+        <div class="contact-form">
+            <h2>Send us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <div class="error" id="nameError">Name is required.</div>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <div class="error" id="emailError">Email is required.</div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+                <div class="error" id="messageError">First name is required.</div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>Contact Us</h3>
+                <p>Email: Vkelloggs@gmail.com</p>
+                <p>Phone: +62 8178329424</p>
+                <p>Address: Binus University, Street Kemanggisan</p>
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="index.html">Vkelloggs</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="recipe.html">Recipe</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Follow Us</h3>
+                <ul class="social-icons">
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2023 Vkelloggs . All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/index.js">
+
+    </script>
+</body>
+
+</html>
